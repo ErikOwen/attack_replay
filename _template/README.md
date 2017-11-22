@@ -1,10 +1,10 @@
 # Vulnerability Name
 
-### Description
+## Description
 
 Brief paragraph talking about what the vulnerability is.
 
-### Steps to Recreate Vulnerable Environment
+## Steps to Recreate Vulnerable Environment
 
 To recreate vulnerability X you will need the following software installed:
 
@@ -22,7 +22,7 @@ Create the vulnerable environment by following these steps
 $ docker run -p 8080:8080 some-docker-repo/some-vulnerable-image
 ````
 
-### Steps to Run the Exploit
+## Steps to Run the Exploit
 
 You can exploit the vulnerable environment created above by following these steps:
 
@@ -35,7 +35,7 @@ You can exploit the vulnerable environment created above by following these step
 $ tool --pwn vulnerable-environment
 ````
 
-### How the Exploit Worked
+## How the Exploit Worked
 
 The vulnerable environment is running version X of software, which is vulnerable to remote code execution due to a security flaw found in it's Y module.
 
@@ -43,8 +43,8 @@ The Y module does not sanitize input coming from requests, which allows an attac
 
 In version X.1 of the software, the vulnerability was patched by adding in code which checked input for any characters that were not alphanumeric.
 
-### References
+## References
 
-* [Reference 1](www.wikipedia.org)
-* [Reference 2](www.wikipedia.org)
-* [Reference 3](www.wikipedia.org)
+* [Reference 1](https://www.wikipedia.org)
+* [Reference 2](https://www.wikipedia.org)
+* [Reference 3](https://www.wikipedia.org)
