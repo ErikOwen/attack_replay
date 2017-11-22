@@ -50,7 +50,7 @@ The specially crafted HTTP request takes advantage of a bug with how the vulnera
 
 After an attacker can run shell commands via remote code exection, the attacker has full control of the server. The attacker could do many malicious actions like move laterally from within the network, modify the contents of the server, or shut down the server.
 
-Diving into the exploit code, the majority of the code is the [specially crafted payload](https://github.com/ErikOwen/attack_replay/blob/master/apache_struts2/pwn_struts2.py#L9) that is delivered via the [Content-Type Header](https://github.com/ErikOwen/attack_replay/blob/master/apache_struts2/pwn_struts2.py#L28). Aside from that, the code sends the HTTP request and prints out the response, which shows the results of the remote code exection.
+Diving into the exploit code, the majority of the code is the [specially crafted payload](https://github.com/ErikOwen/attack_replay/blob/master/apache_struts2/pwn_struts2.py#L9-L25) that is delivered via the [Content-Type Header](https://github.com/ErikOwen/attack_replay/blob/master/apache_struts2/pwn_struts2.py#L28). Aside from that, the code sends the HTTP request and prints out the response, which shows the results of the remote code execution.
 
 ## References
 
