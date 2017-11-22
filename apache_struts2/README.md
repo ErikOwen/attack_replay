@@ -25,7 +25,7 @@ Create the vulnerable environment by following these steps
 
 ### Steps to Run the Exploit
 
-You can exploit the vulnerable Apache Struts2 server created above by sending a specially crafted HTTP request to upload a file, where the request takes advantage of a bug with how the vulnerable Struts version handles errors. With the Jakarta Multipart Parser, Struts will parse certain header strings and execute the header value if it contains [OGNL](https://commons.apache.org/proper/commons-ognl/) code. Malicious OGNL code could allow an attacker to run shell commands on the affected server.
+You can exploit the vulnerable Apache Struts2 server created above by sending a specially crafted HTTP request to upload a file, where the request takes advantage of a bug with how the vulnerable Struts version handles errors.
 
 To run the exploit:
 
