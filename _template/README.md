@@ -42,3 +42,9 @@ The vulnerable environment is running version X of software, which is vulnerable
 The Y module does not sanitize input coming from requests, which allows an attacker to craft a requestin a certain way which will take advantage of the unsanitized input.
 
 In version X.1 of the software, the vulnerability was patched by adding in code which checked input for any characters that were not alphanumeric.
+
+### References
+
+* [Reference 1](www.wikipedia.org)
+* [Reference 2](www.wikipedia.org)
+* [Reference 3](www.wikipedia.org)
