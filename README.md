@@ -1,7 +1,7 @@
 # Attack Replay
 
 
-### Summary
+## Summary
 
 The goal of **Attack Replay** is to spread security knowledge by demystifying common and well known security vulnerabilities. For each security vulnerability in this project, Attack Replay:
 
@@ -10,15 +10,15 @@ The goal of **Attack Replay** is to spread security knowledge by demystifying co
 * And explains the _how_ and _why_ behind the vulnerability
 
 
-### Purpose
+## Purpose
 
 Attack Replay aims to make security vulnerabilities more understandable to the average developer in hopes that if the developers learn the _why_ behind the vulnerability, they are less likely to write vulnerable sotftware in the future.
 
-### Attack Replay Library:
+## Attack Replay Library:
 
 1. [Apache Struts2 (CVE 2017-5638)](apache_struts2/README.md)
 
-### Contributions
+## Contributions
 
 Contributions are more than welcome! Please follow the template defined [here](/_template/README.md) for creating attack replays for new vulnerabilities.
 
